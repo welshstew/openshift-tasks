@@ -1,0 +1,18 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <id>nexus</id>
+      <name>Nexus</name>
+      <url>http://nexus-ci.cloudapps-f109.oslab.opentlc.com/content/groups/public/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+  <servers>
+   <server>
+      <id>nexus</id>
+      <username>deployment</username>
+      <password>deployment123</password>
+   </server>
+</servers>
+</settings>
+
